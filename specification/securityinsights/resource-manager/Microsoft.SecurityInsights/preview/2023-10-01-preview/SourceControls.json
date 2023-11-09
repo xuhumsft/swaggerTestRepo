@@ -891,7 +891,7 @@
     },
     "Warning": {
       "description": "Warning response structure.",
-      "x-ms-external": true,
+      "x-ms-external": false,
       "properties": {
         "warning": {
           "$ref": "#/definitions/WarningBody",
@@ -902,7 +902,7 @@
     },
     "WarningBody": {
       "readOnly": true,
-      "x-ms-external": true,
+      "x-ms-external": false,
       "description": "Warning details.",
       "properties": {
         "code": {
